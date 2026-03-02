@@ -1,0 +1,57 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "desc": "Description for product 1"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "desc": "Description for product 2"
+    },
+    {
+      "id": "3",
+      "name": "dsdsd",
+      "desc": "ewdf"
+    },
+    {
+      "id": "56",
+      "name": "mody",
+      "desc": "this is a test"
+    },
+    {
+      "id": "1",
+      "name": "er",
+      "desc": "re"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
